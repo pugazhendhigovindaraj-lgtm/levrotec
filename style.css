@@ -23,6 +23,11 @@ header{
     width:100%;
 }
 
+.logo{
+    position: relative;
+    z-index: 100000;
+}
+
 .logo img{
     position: fixed;
     width:150px;
@@ -42,7 +47,7 @@ header{
 
 
 .overlay{
-    position:fixed;
+    
     top:0;
     left:0;
     width:100%;
