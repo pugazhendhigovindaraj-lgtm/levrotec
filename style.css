@@ -113,7 +113,7 @@ header{
 @media(max-width:768px){
     .logo img{
         position: fixed;
-        top: -5px;
+        
         width:150px;
         height: auto;
         margin-left: -25px;
@@ -121,6 +121,9 @@ header{
 
     .menu-btn{
         position: fixed;
+        top: 15px;
+        right: 28px;
+        z-index: 9999;
         font-size:28px;
     }
 
